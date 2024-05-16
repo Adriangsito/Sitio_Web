@@ -1,0 +1,97 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+ 
+    background-image: url("imagenes/fondo.jpg");
+  }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 4, 255);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #a200ff;
+}
+div.gallery {
+  border: 1px solid #00c3ff;
+}
+
+div.gallery:hover {
+  border: 1px solid #ff00dd;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside{
+  float: left;
+  width:20%;
+}
+aside img {
+width: 100%;
+}
+section {
+width :80%;
+float: left;
+}
+footer{
+  float: none;
+  text-align: center;
+}
+section article div img{
+width: 32%;
+}
